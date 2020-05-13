@@ -20,6 +20,17 @@
 - After both of them are sorted, the halves are compared to each other until a sorted list comes as an output
 - In merge sort the best, worst, and average time complexity are all same i.e *O(N*Log(N))*  
 
+## QUICK SORT 
+
+- *Comparison sort, where values are ordered by a comparison operation such as > or <*
+- Choose a "Pivot" and then compare other elements of the array with the pivot
+- Upon comparison the array can be divided into three groups:
+  - Sub-array containing elements smaller than pivot
+  - The pivot itsef
+  - Sub-array elements greater than the pivot
+- Runtime efficiency: 
+  - worst case = *O(N^2)*
+  - Average case = *O(N*logN)*
 
 
 
